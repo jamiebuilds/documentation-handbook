@@ -1,24 +1,22 @@
 # How to write high quality friendly documentation that people want to read
 
-For several years I've focused hard on the way that I write documentation in
-order to make it as approachable as possible to everyone that might read it.
-
-I've written lots of blog posts and guides like these:
+For the last few years I have written a lot of documentation for projects like
+Babel or Flow, blog posts, and guides such as these:
 
 - https://github.com/thejameskyle/the-super-tiny-compiler
 - https://github.com/thejameskyle/itsy-bitsy-data-structures
 - https://github.com/thejameskyle/babel-handbook
 
-At Facebook I'm writing documentation for a couple projects including Flow.
-
-There are a number of things that I've learned over the years that I
-continuously work on to make things better for everyone.
-
-Here are some tips on how (in my opinion) to write better documentation.
+I've tried to focus on the way that I write in order to make it more
+approachable and more useful to everyone. There are a number of things that I
+have learned over the years that I believe makes for high-quality and friendly
+documentation.
 
 > **Note:** Some of this only really applies when you are talking about things
 > that require tons of documentation. Try to adapt this advice to fit what you
 > are working on best.
+
+Here they are as one massive list:
 
 #### In general...
 
