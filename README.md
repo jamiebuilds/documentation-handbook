@@ -64,6 +64,15 @@ Here they are as one massive list:
   next, point the user to the next page and make sure it follows naturally.
 - Gently introduce a guide before diving into technical details. This gives
   context and readers are more likely to stay engaged longer.
+- Tell one story at a time. You can re-explain the same concepts from different
+  perspectives or for different use-cases.
+- Don't clutter explanations with overly detailed examples. You don't need to
+  implement a game of sudoku to explain how you might use your library with it.
+  Typically if you have to explain the backstory of an example then it is too
+  complicated and serves as a distraction from what you're teaching.
+- Don't be afraid of foo's and and bar's. Using them removes mental overhead,
+  it's explicitly saying to the reader "don't worry about what this is, is
+  could be anything"
 
 #### When writing api documentation...
 
