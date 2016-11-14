@@ -1,5 +1,7 @@
 # How to write high quality friendly documentation that people want to read
 
+[In Russian](../blob/master/russian.md)
+
 For the last few years I have written a lot of documentation for projects like
 Babel or Flow, blog posts, and guides such as these:
 
