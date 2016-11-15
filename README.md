@@ -1,5 +1,13 @@
 # How to write high quality friendly documentation that people want to read
 
+## Translations
+
+- [Pусский](/translations/ru/README.md)
+
+**[Request another translation](https://github.com/thejameskyle/documentation-handbook/issues/new?title=Translation%20Request:%20[Please%20enter%20language%20here]&body=I%20am%20able%20to%20translate%20this%20language%20[yes/no])**
+
+---
+
 For the last few years I have written a lot of documentation for projects like
 Babel or Flow, blog posts, and guides such as these:
 
