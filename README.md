@@ -1,7 +1,6 @@
 # How to write high quality friendly documentation that people want to read
 
 ## Translations
-## Translations
 
 <!-- - [English](/README.md)
 <!-- - [Afrikaans](/translations/af/README.md) -->
