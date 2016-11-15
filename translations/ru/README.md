@@ -1,58 +1,121 @@
-# How to write high quality friendly documentation that people want to read
+# Как писать качественную и понятную документацию, что бы люди хотели ее читать
 
-For the last few years I have written a lot of documentation for projects like Babel or Flow, blog posts, and guides such as these:
+## ﻿Переводы
+
+<!-- - [English](/README.md)
+<!-- - [Afrikaans](/translations/af/README.md) -->
+
+<!-- - [العربية](/translations/ar/README.md) -->
+
+<!-- - [Català](/translations/ca/README.md) -->
+
+<!-- - [Čeština](/translations/cs/README.md) -->
+
+<!-- - [Danske](/translations/da/README.md) -->
+
+<!-- - [Deutsch](/translations/de/README.md) -->
+
+<!-- - [ελληνικά](/translations/el/README.md) -->
+
+<!-- - [Español](/translations/es-ES/README.md) -->
+
+<!-- - [Suomi](/translations/fi/README.md) -->
+
+<!-- - [Français](/translations/fr/README.md) -->
+
+<!-- - [עִברִית](/translations/he/README.md) -->
+
+<!-- - [Magyar](/translations/hu/README.md) -->
+
+<!-- - [Italiano](/translations/it/README.md) -->
+
+<!-- - [日本語](/translations/ja/README.md) -->
+
+<!-- - [한국어](/translations/ko/README.md) -->
+
+<!-- - [Norsk](/translations/no/README.md) -->
+
+<!-- - [Nederlands](/translations/nl/README.md) -->
+
+<!-- - [Português](/translations/pl/README.md) -->
+
+<!-- - [Português (Brasil)](/translations/pt-BR/README.md) -->
+
+<!-- - [Portugisisk](/translations/pt-PT/README.md) -->
+
+<!-- - [Română](/translations/ro/README.md) --> - 
+
+[Русский](/translations/ru/README.md) <!-- - [Српски језик (Ћирилица)](/translations/sr/README.md) -->
+
+<!-- - [Svenska](/translations/sv-SE/README.md) -->
+
+<!-- - [Türk](/translations/tr/README.md) -->
+
+<!-- - [Український](/translations/uk/README.md) -->
+
+<!-- - [Tiếng Việt](/translations/vi/README.md) -->
+
+<!-- - [中文](/translations/zh-CN/README.md) -->
+
+<!-- - [繁體中文](/translations/zh-TW/README.md) -->
+
+**[Запросить другой перевод](https://github.com/thejameskyle/documentation-handbook/issues/new?title=Translation%20Request:%20[Please%20enter%20language%20here]&body=I%20am%20able%20to%20translate%20this%20language%20[yes/no])**
+
+* * *
+
+За последние несколько лет я написал много документации для таких проектов как Babel или Flow, записей в блоге и руководств вроде этих:
 
 - https://github.com/thejameskyle/the-super-tiny-compiler
 - https://github.com/thejameskyle/itsy-bitsy-data-structures
 - https://github.com/thejameskyle/babel-handbook
 
-I've tried to focus on the way that I write in order to make it more approachable and more useful to everyone. There are a number of things that I have learned over the years that I believe makes for high-quality and friendly documentation.
+В процессе написания я старался сосредоточиться на том, чтобы сделать это более доступным и более полезным для каждого. За эти годы я узнал много того, что делает, как мне кажется, документацию качественной и понятной.
 
-> **Note:** Some of this only really applies when you are talking about things that require tons of documentation. Try to adapt this advice to fit what you are working on best.
+> **Примечание:** Некоторые из этих советов действительно применимы, только когда идет речь о чем-то, что требует тонны документации. Попробуйте лучше адаптировать этот совет к тому, над чем вы работаете.
 
-Here they are as one massive list:
+Вот они в виде этого большого списка:
 
-#### In general...
+#### В общем...
 
-- Keep a lighthearted friendly tone. Don't spend time trying to prove how smart you are. Treat the reader as a close friend who doesn't have a lot of knowledge about the topic but is very interested.
-- Don't assume prior knowledge about the topic. If you want to appeal to a large audience (i.e. not a research paper) then you are going to have people with very diverse backgrounds.
-- Don't use words like "obviously" or "basically", I promise you will never *need* to. Just say what needs to be said in simple straight forward language. Never ever talk down to people (both of those words do, as well as others).
-- Don't use idioms. Speak using more formal terms that are well defined. This makes it easier for non-native-english speakers and for translations to be written. If you do, you won't just knock it out of the park, you'll do a really good job.
-- Use words that are easier to understand and translate (i.e. "list" instead of "enumerate"). Don't worry that you're being slightly more precise using a bigger word, think about how it will sound to someone unfamiliar with the topic.
-- Keep things brief. Avoid giant paragraphs, breaking them apart into multiple paragraphs each with a clear point. If you are writing really long paragraphs, it's most likely that you aren't doing a good job explaining what you mean.
-- Link to other places in the documentation often ***but*** only for additional information. Readers should not have to navigate through several pages to find the information that they need about one specific thing. Just inline the immediately relevant information and link off if they want to know more.
-- Reuse the same small set of examples as much as possible, keep presenting the same problem and building on top of it. Don't make the user keep thinking about new problems, people can only focus on so many things. If you need to keep coming up with new examples, you haven't started in a good place, start over and come up with a better one.
+- Держитесь спокойного дружелюбного тона. Не тратьте время, доказывая, насколько вы умны. Отнеситесь к читателю как с близкому другу, который не очень разбирается в теме, но очень заинтересован.
+- Не рассчитывайте, что многие будут уже "в теме". Если вы хотите обратиться к широкой аудитории (т.е. это не научно-исследовательская работа), то в этом случае будут люди с очень разным уровнем осведомленности.
+- Не используйте такие слова, как "очевидно" или "в основном", более чем уверен, что это совсем *не нужно*. Просто говорите то, что нужно сказать простым и понятным языком. Никогда не ставьте себя выше читателя (а эта интонация имеется в этих словах).
+- Не используйте идиомы. Выражайтесь используя более формальные термины, которые четко определены. Это будет проще для не носителей английского языка и для переводов, которые будут написаны. Если вы будете так делать, это будет не просто хорошо, а очень хорошо.
+- Используйте слова, которые легче понять и перевести. Не волнуйтесь быть чуть многословней для более точного определения, подумайте о том, как это будет звучать для того, кто не знаком с этой темой.
+- Излагайте кратко. Избегайте огромных параграфов, разбивая их на несколько с четким смыслом в каждом. Если вы пишете очень длинные параграфы, то это не лучший способ донести то, что вы имеете в виду.
+- Чаще ссылайтесь на другие места в документации, ***но*** только для дополнительной информации. Читатели не должны листать по несколько страниц, чтобы найти информацию, которая им нужна только лишь о чем-то конкретном. Просто допишите соответствующую информацию и добавьте ссылку, если они захотят, чтобы узнать больше.
+- Ограничьтесь небольшим числом примеров и используйте их как можно больше, разбирайте в примерах одну и ту же задачу и старайтесь основываться на этом. Не заставляйте пользователя думать о новых вопросах, людям это может мешать сфокусироваться. Если вам приходится придумывать новые примеры, возможно вы начали не с того места, вернитесь назад и придумайте что-то получше.
 
-#### When writing guides...
+#### В процессе написания руководств...
 
-- Use as many code/cli/etc examples as possible, *show* the reader what you mean. This makes things far easier to translate and is generally much easier to follow than walls of text. Even if you aren't going to discuss the code directly it's good for giving context.
-- Use headings frequently. This breaks things up when reading and often it is good for linking to specific information.
-- If writing with multiple pages, think about how a single page leads into the next, point the user to the next page and make sure it follows naturally.
-- Gently introduce a guide before diving into technical details. This gives context and readers are more likely to stay engaged longer.
-- Tell one story at a time. You can re-explain the same concepts from different perspectives or for different use-cases.
-- Don't clutter explanations with overly detailed examples. You don't need to implement a game of sudoku to explain how you might use your library with it. Typically if you have to explain the backstory of an example then it is too complicated and serves as a distraction from what you're teaching.
-- Don't be afraid of foo's and and bar's. Using them removes mental overhead, it's explicitly saying to the reader "don't worry about what this is, is could be anything"
+- Используйте как можно больше примеров кода и консольных команд и т. п., *четко покажите* читателю, что вы имеете в виду. Эти примеры делают документацию намного легче для перевода и, по большей части, намного понятней, чем сотни страниц текста. Даже если вы не собираетесь этот код обсуждать, то это будет проще для понимания сути дела.
+- Чаще используйте заголовки. Это помогает сосредоточиться в процессе чтения и в большинстве случаев помогает ссылаться к нужному разделу в документации.
+- Если результате документация выходит на несколько страниц, подумайте о том, как одна страница ведет к другой, ведите пользователя от страницы к странице и старайтесь что бы это было последовательно.
+- Сделайте плавное введение в руководстве перед погружением в технические детали. Это даст контекст и читатели, вероятно, будут больше заинтересованы и вовлечены.
+- Поясняйте что-то один раз. Но вы можете заново объяснять одни и те же понятия с разных точек зрения или для различных сценариев использования.
+- Не загромождайте объяснения чрезмерно подробными примерами. Не нужно писать игру Судоку и объяснять, как это сделать сделать с помощью вашей библиотеки. В общем, это все к тому, что не нужно вдаваться в детали объясняемого примера, так как это может отвлечь от самой темы.
+- Не бойтесь абстрактных понятий (foo, bar). С их помощью можно не забивать голову лишним, это явно говорит читателю "не беспокойтесь том, что это такое, это может быть чем угодно".
 
-#### When writing api documentation...
+#### В процессе написания документации на API...
 
-- Think about API docs like they are guides on how to use them. Type signatures for input and output and a vague description isn't enough to be useful.
-- Add information explaining the purpose of a group of APIs before diving into them. Also add any other relevant information or caveats. People are far more likely to read it this way.
-- Use shared terminology with API names, examples, and explanations. Call something a single name no matter where you are referring to it, and name things
-- Don't try to solve real world scenarios in code examples if they become any more complicated than the API already is. Do not implement algorithms, do not add a bunch of noisy implementation details that doesn't aid the user.
-- Keep code examples extremely short. Your target should be ~3-5 lines of code, every line past that is a count against you. Think hard about the examples you are using.
+- Думайте об документации на API, как о руководстве по его использованию. Типы ввода/вывода и расплывчатое описание - не достаточная информация для того, что бы быть полезной.
+- Добавьте информацию, объясняющую назначение группы API, прежде чем погрузиться в их объяснение. Кроме того, добавьте любую другую соответствующую информацию или какие могут быть "подводные камни". С большой вероятностью, людям будет удобней читать в таком виде.
+- Используйте общую терминологию в именах API, примерах и объяснениях. Называйте что-то одним и тем же именем, не зависимо от того, где вы на это ссылаетесь.
+- Не пытайтесь решать задачи из реальной жизни в примерах кода, если эти задачи становятся сложнее чем API. Не реализуйте алгоритмы, не стоит засорять деталями реализации, которые не интересуют пользователя.
+- Делайте примеры кода очень коротким. Ваша цель должна быть ~3-5 строк кода и каждая строка выше этого лимита играет против вас. Хорошо подумайте о примерах, которые вы используете.
 
-#### Absolutely...
+#### Категорически...
 
-- Never use terms that are offensive to any group. There will never be a good reason to.
-- Do not use gendered terms. Pronouns like he/she/her/him and gendered terms like actress/actor/waiter/waitress should all be thrown out and you should avoid using any terms or phrases that don't necessary refer directly to gender but have gendered connotations. For example, words "pretty", "curvy", "moody", or "bossy" all refer to women far more often than they do men.
-- Avoid examples using people. You end up sounding like you're talking to children and it's easy to create examples that place one group of people over another (i.e. "Susan went to her project manager Tim..."). So as a more generalized rule, use examples that don't involve people.
-- Follow other guidelines outlined in documents like the [Contributors Covenant](http://contributor-covenant.org/).
+- Никогда не используйте термины, которые являются оскорбительными для какой-либо группы людей. Это всегда не обосновано.
+- Не следует использовать гендерные термины. Местоимения, такие как он/она/ее/его и терминология по половому признаку, как актриса/актер/официант/официантка должны быть полностью исключены, и вам следует избегать использования каких-либо терминов или фраз, которые могут и не иметь явного указания на пол, но могут иметь похожую смысловую нагрузку. Например, слова "милая", "аппетитная", "капризная" или "властная" все они имеют явную ссылку к женскому полу, а не к мужскому.
+- Избегайте использования людей в качестве примеров. Вы, в конечном итоге, должны звучать, как будто вы говорите с детьми, ведь довольно легко создать примеры, которые ставят одну группу людей над другой (например, "Сьюзен пошла к своему менеджеру по проекту Тиму..."). Так, в качестве общего правила, используйте примеры, которые не связаны с людьми.
+- Следуйте другим рекомендациям, изложенным в документации типа этой [Contributors Covenant](http://contributor-covenant.org/).
 
 * * *
 
-This is a living guide for myself and others as I learn more about writing documentation. I hope it is helpful to others in its current state. If you have any suggestions, feel free to open an issue or pull request on GitHub and let me know.
+Это актуальное руководство лично для меня и других может дополняться по мере того, как я узнаю больше о написании документации. Надеюсь, что оно окажется полезным для других в его текущем состоянии. Если у вас есть какие-либо предложения, не стесняйтесь открыть issue или pull request на GitHub и дайте мне знать.
 
-Have fun writing!
+Пишите с удовольствием!
 
 * * *
 
