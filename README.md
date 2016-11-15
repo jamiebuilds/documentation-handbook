@@ -1,8 +1,38 @@
 # How to write high quality friendly documentation that people want to read
 
 ## Translations
+## Translations
 
+<!-- - [English](/README.md)
+<!-- - [Afrikaans](/translations/af/README.md) -->
+<!-- - [العربية](/translations/ar/README.md) -->
+<!-- - [Català](/translations/ca/README.md) -->
+<!-- - [Čeština](/translations/cs/README.md) -->
+<!-- - [Danske](/translations/da/README.md) -->
+<!-- - [Deutsch](/translations/de/README.md) -->
+<!-- - [ελληνικά](/translations/el/README.md) -->
+<!-- - [Español](/translations/es-ES/README.md) -->
+<!-- - [Suomi](/translations/fi/README.md) -->
+<!-- - [Français](/translations/fr/README.md) -->
+<!-- - [עִברִית](/translations/he/README.md) -->
+<!-- - [Magyar](/translations/hu/README.md) -->
+<!-- - [Italiano](/translations/it/README.md) -->
+<!-- - [日本語](/translations/ja/README.md) -->
+<!-- - [한국어](/translations/ko/README.md) -->
+<!-- - [Norsk](/translations/no/README.md) -->
+<!-- - [Nederlands](/translations/nl/README.md) -->
+<!-- - [Português](/translations/pl/README.md) -->
+<!-- - [Português (Brasil)](/translations/pt-BR/README.md) -->
+<!-- - [Portugisisk](/translations/pt-PT/README.md) -->
+<!-- - [Română](/translations/ro/README.md) -->
 - [Pусский](/translations/ru/README.md)
+<!-- - [Српски језик (Ћирилица)](/translations/sr/README.md) -->
+<!-- - [Svenska](/translations/sv-SE/README.md) -->
+<!-- - [Türk](/translations/tr/README.md) -->
+<!-- - [Український](/translations/uk/README.md) -->
+<!-- - [Tiếng Việt](/translations/vi/README.md) -->
+<!-- - [中文](/translations/zh-CN/README.md) -->
+<!-- - [繁體中文](/translations/zh-TW/README.md) -->
 
 **[Request another translation](https://github.com/thejameskyle/documentation-handbook/issues/new?title=Translation%20Request:%20[Please%20enter%20language%20here]&body=I%20am%20able%20to%20translate%20this%20language%20[yes/no])**
 
